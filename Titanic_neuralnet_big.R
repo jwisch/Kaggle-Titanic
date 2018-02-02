@@ -109,7 +109,7 @@ testset <- cbind(test.Pclass, test.Sex, test.Age, testmaybe, test.Survived)
 train.nnet<-nnet(Sl1~ Pcl1 + Pcl2 + Pcl3 + Xl1 +Xl2 +
                    Al1 + Al2 + Al3 + Al4 + Al5 + Al6 + Al7 + Al8 + Al9 + Al10 +
                    Al11 + Al12 + Al13 + Al14 + Al15 + Al16 + Al17 + Al18 + Al19 + Al20 +
-                   SibSp + Parch,trainingset, size = 3, Hess=FALSE,decay=15e-4,maxit=1000)
+                   SibSp + Parch,trainingset, size = 4, Hess=FALSE,decay=15e-4,maxit=1000)
 
 
 plot.nnet(train.nnet)
