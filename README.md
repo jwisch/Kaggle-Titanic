@@ -7,4 +7,3 @@ The Small Neural Net file uses a neural network and only takes into account pass
 
 The Big Neural Net file uses a neural network and  takes into account passenger sex, passenger class, passenger age (split into categories of 0-5, 5-10, etc.), number of parents traveling with, and number of siblings traveling with to predict survival.  It delivers 73% accuracy.
 
-I plan to make more complex models in the near future to improve predictions.
